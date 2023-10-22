@@ -1,3 +1,28 @@
+# My programming specifications
+## Indentation:
+Use four spaces for indentation, not tabs.
+## Variable Naming:
+Use meaningful variable names following the camelCase convention.
+Class member variables should start with a lowercase letter and can use prefixes to denote their type, e.g., strName.
+Constants should be in all uppercase letters with underscores separating words, e.g., MAX_VALUE.
+## Maximum Number of Characters per Line:
+Each line of code should ideally not exceed 80-120 characters to improve readability. If it does, consider breaking the line.
+## Function and Class Naming:
+Class names should start with an uppercase letter and use camelCase, e.g., MyClass.
+Method names should start with a lowercase letter and use camelCase, e.g., calculateTotal().
+## Blank Line Rule:
+Leave blank lines between functions and class definitions to improve code readability.
+## Annotation Rules:
+Use JavaDoc-style comments to document classes, methods, and members.
+Use line comments (//) or block comments (/* ... */) inside methods to explain the purpose or special cases of the code.
+## Space Before and After Operator:
+Add spaces before and after binary operators, e.g., int sum = a + b;.
+## Other Rules:
+Avoid using "magic numbers" (unnamed constants); use meaningful constants or enumeration types.
+Handle exceptions using try-catch blocks, ensuring that caught exceptions are appropriately handled or logged.
+Adhere to SOLID principles and design patterns in Java programming to improve code maintainability and extensibility.
+
+---
 # ScientificCaculator
 |The Link Your Class  |[https://bbs.csdn.net/forums/ssynkqtd-04](https://bbs.csdn.net/forums/ssynkqtd-04) |
 |--|--|
@@ -7,7 +32,7 @@
 | The Link of Code of this assignment of GitHub|[https://github.com/CHENZHEN3078/ScientificCaculator](https://github.com/CHENZHEN3078/ScientificCaculator) |
 
 
-@[TOC](Catalog)
+[TOC](Catalog)
 
 ---
 
