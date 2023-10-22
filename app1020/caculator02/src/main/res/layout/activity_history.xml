@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bg3"
+android:orientation="vertical"
+android:padding="5dp">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#156200EE"
+            android:gravity="center"
+            android:text="@string/simple_calculator"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_columnWeight="1"
+            android:background="@color/white"
+            android:gravity="center"
+            android:onClick="delete"
+            android:text="Refresh"
+            android:textColor="@color/black"
+            android:textSize="20sp
+" />
+
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:background="@color/white"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation1"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation2"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation3"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation4"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation5"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation6"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation7"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation8"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation9"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:clickable="true"
+            android:gravity="center"
+            android:text="equation10"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:textSize="20dp" />
+
+       <!-- <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="10dp"
+            android:textColor="#FF0000"
+            android:text="11111111111"
+            android:textSize="20sp" />-->
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+
